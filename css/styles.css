@@ -1159,9 +1159,7 @@ section.top-section article h1 {
             padding: 0;
         }
         /*img article and text article*/
-        .img-article {
-            background-color:#00954C;
-        }
+        
         .text-article {
             background-color:#F6F6F6;
             text-align: left;
