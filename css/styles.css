@@ -1322,6 +1322,7 @@ section.top-section article h1 {
             width: 40px;
             height: 65px;
             position: relative;
+            cursor: pointer;
             
           }
           .burger-menu span {
@@ -1753,4 +1754,9 @@ section.top-section article h1 {
             font-size: 2rem;
         }
         
+    }
+
+    /*Clickable Nav Logo*/
+    .clickableLogo {
+        cursor: pointer;
     }
