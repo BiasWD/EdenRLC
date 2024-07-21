@@ -183,11 +183,13 @@
 <script defer>
     const burgerMenu = document.querySelector('.burger-menu');
     const mobileMenu = document.querySelector('.mobile-menu');
+    const body = document.body;
 
-burgerMenu.addEventListener('click', () => {
-burgerMenu.classList.toggle('burger-active');
-mobileMenu.classList.toggle('mobile-menu-active');
+    burgerMenu.addEventListener('click', () => {
+    burgerMenu.classList.toggle('burger-active');
+    mobileMenu.classList.toggle('mobile-menu-active');
 })
 </script>
+<script defer src="js/hideNavOnScroll.js"></script>
 <script defer src="js/clickableNavLogo.js"></script>
 </body>
