@@ -24,7 +24,6 @@ const validZipCodes = [
     '55573', // Young America, MN
     '55593', // Maple Plain, MN
     '55599', // Loretto, MN
-    '56442',  // Crosslake, MN
     '55357' // Loretto, MN
 ];
 const backBtns = document.querySelectorAll(".btn-back");
