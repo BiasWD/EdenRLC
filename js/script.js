@@ -1,70 +1,31 @@
 const validZipCodes = [
-    '56308', // Alexandria, MN
-    '56360', // Melrose, MN / Osakis, MN
-    '56389', // West Union, MN
-    '56378', // Sauk Centre, MN
-    '56356', // Melrose, MN
-    '56331', // Freeport, MN
-    '56352', // Lake Henry, MN
-    '56307', // Albany, MN
-    '56310', // Avon, MN
-    '56397', // Saint Cloud, MN
-    '56398', // Saint Cloud, MN
-    '56302', // Saint Cloud, MN
-    '56399', // Saint Cloud, MN
-    '56372', // Sartell, MN
-    '56393', // Saint Cloud, MN
-    '56395', // Saint Cloud, MN
-    '56396', // Saint Cloud, MN
-    '56388', // Saint Joseph, MN
-    '56387', // Saint Cloud, MN
-    '56303', // Saint Cloud, MN
-    '56301', // Saint Cloud, MN
-    '56304', // Saint Cloud, MN
-    '56377', // Sartell, MN
-    '56379', // Sauk Rapids, MN
-    '56369', // Richmond, MN
-    '56321', // Collegeville, MN
-    '56374', // Saint Joseph, MN
-    '55308', // Becker, MN
-    '55362', // Monticello, MN
-    '55320', // Clearwater, MN
-    '55319', // Clear Lake, MN
-    '55358', // Maple Lake, MN
-    '55309', // Big Lake, MN
-    '55374', // Rogers, MN
-    '55376', // Saint Michael, MN
-    '55341', // Hanover, MN
-    '55301', // Albertville, MN
-    '55369', // Maple Grove, MN
-    '55303', // Anoka, MN
-    '55592', // Maple Plain, MN
-    '55316', // Champlin, MN
-    '55330', // Elk River, MN
-    '55569', // Rogers, MN
+    '55305', // Hopkins, MN
     '55311', // Maple Grove, MN
-    '55446', // Plymouth, MN
-    '55442', // Plymouth, MN
-    '55340', // Hamel, MN
+    '55316', // Champlin, MN
+    '55323', // Crystal Bay, MN
     '55327', // Dayton, MN
-    '55447', // Plymouth, MN
-    '55441', // Plymouth, MN
-    '55433', // Coon Rapids, MN
-    '55448', // Coon Rapids, MN
-    '55427', // New Hope, MN
-    '55599', // Maple Plain, MN
-    '55357', // Loretto, MN
-    '55422', // Golden Valley, MN
+    '55340', // Hamel, MN
+    '55343', // Eden Prairie, MN / Hopkins, MN
     '55356', // Long Lake, MN
-    '56339', // Hoffman, MN
-    '56537', // Fergus Falls, MN
-    '56324', // Dalton, MN
-    '56309', // Ashby, MN
-    '56326', // Evansville, MN
-    '56315', // Brandon, MN
-    '55313', // Buffalo, MN
-    '56369', //Richmond, MN
-    '56267' //Morris, MN
+    '55359', // Minnetrista, MN
+    '55361', // Minnetonka, MN
+    '55345', // Minnetonka, MN
+    '55364', // Minnetrista, MN
+    '55369', // Maple Grove, MN
+    '55374', // Rogers, MN
+    '55384', // Spring Park, MN
+    '55391', // Wayzata, MN
+    '55433', // Coon Rapids, MN
+    '55441', // Plymouth, MN
+    '55442', // Plymouth, MN
+    '55446', // Plymouth, MN
+    '55447', // Plymouth, MN
+    '55569', // Plymouth, MN
+    '55573', // Young America, MN
+    '55593', // Maple Plain, MN
+    '55599', // Loretto, MN
+    '56442',  // Crosslake, MN
+    '55357' // Loretto, MN
 ];
 const backBtns = document.querySelectorAll(".btn-back");
 const nextBtns = document.querySelectorAll(".btn-next");
