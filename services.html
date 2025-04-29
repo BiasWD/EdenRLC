@@ -1,14 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
+    
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HESNLFHM5M">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HESNLFHM5M');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eden Roots Lawn Care | Services</title>
-    <meta name="description" content="Eden Roots Lawn Care offers affordable, yet high-quality lawn maintenance services in Minnesota.">
+    <meta name="description"
+        content="Eden Roots Lawn Care offers affordable, yet high-quality lawn maintenance services in Minnesota.">
     <!--Open Graph Protocol-->
     <meta property="og:title" content="Services - Eden Roots Lawn Care">
-    <meta property="og:description" content="Eden Roots Lawn Care offers affordable, yet high-quality lawn maintenance services in Minnesota.">
+    <meta property="og:description"
+        content="Eden Roots Lawn Care offers affordable, yet high-quality lawn maintenance services in Minnesota.">
     <meta property="og:image" content="https://edenrootslawncare.com/images/edenlogocolored.png">
     <meta property="og:url" content="https://edenrootslawncare.com/services.html">
     <meta property="og:type" content="website">
@@ -16,181 +28,202 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <link rel="stylesheet" href="https://use.typekit.net/njt8alf.css">
 </head>
 
 <body>
     <!--Facebook Java SDK-->
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="XmoZzCzX"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
+        nonce="XmoZzCzX"></script>
     <script>
         document.addEventListener('scroll', () => {
             const header = document.querySelector('header');
-            
+
             if (window.scrollY > 0) {
                 header.classList.add('scrolled');
             }
             else {
                 header.classList.remove('scrolled');
             }
-            }
+        }
         )
     </script>
-<header>
-    <div id="nav-logo" href="index.html"><img class="whitelogo clickableLogo" src="images/edenlogowhite.png" alt="Eden Roots Logo"> <img class="reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">  </div>
-    <nav>
+    <header>
+        <div id="nav-logo" href="index.html"><img class="whitelogo clickableLogo" src="images/edenlogowhite.png"
+                alt="Eden Roots Logo"> <img class="reglogo clickableLogo" src="images/edenlogocolored.png"
+                alt="Eden Roots Logo"> </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html" class="current-page">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="clientportal.html">Client Page</a>
+        </nav>
+        <div id="right-header"></div>
+    </header>
+    <div class="mobile-nav">
+        <div class="mobile-nav-logo">
+            <img class="mobile-reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">
+        </div>
+        <div class="burger-container">
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
         <a href="index.html">Home</a>
-        <a href="services.html" class="current-page">Services</a>
+        <a class="mobile-current-page" href="services.html">Services</a>
         <a href="contact.html">Contact</a>
         <a href="clientportal.html">Client Page</a>
-    </nav>
-    <div id="right-header"></div>
-</header>
-<div class="mobile-nav">
-    <div class="mobile-nav-logo">
-        <img class="mobile-reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">
     </div>
-    <div class="burger-container">
-    <div class="burger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    </div>
-</div>
-<div class="mobile-menu">
-    <a href="index.html">Home</a>
-    <a class="mobile-current-page" href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-    <a href="clientportal.html">Client Page</a>
-</div>
-<div id="main-container">
-    <section class="top-section top-contact top-services" >
-        <article>
-            <p>Services</p>
-            <h1>Mowing, Trimming, Spring & Fall Cleanup Services, and More</h1>
+    <div id="main-container">
+        <section class="top-section top-contact top-services">
+            <article>
+                <p>Services</p>
+                <h1>Mowing, Trimming, Spring & Fall Cleanup Services, and More</h1>
 
-        </article>
-    </section>
+            </article>
+        </section>
 
-    <section class="services-article-container" id="mowing-service">
-        <article class="left-services-column text-article">
-            <div class="service-heading">
-            <h2>Mowing and Trimming</h2>
-            <h3 class="greenwords">For any size lawn</h3>
-    <p>Our professional mowing and trimming services ensure your lawn remains healthy, vibrant, and impeccably manicured throughout the seasons. We utilize a professional-grade 54" Zero-Turn Mower to tackle jobs of any size. Additionally, we carefully trim around any areas the mower can't reach and use a blower afterwards to clean up. This ensures that every part of your lawn looks its best.</p>
-            </div>
-            <img class="in-service" src="images/mower.jpg" alt="Our mower">
-            <div class="service-btns-group">
-                <a href="index.html#home-services" class="btn-home">Back to Home</a>
-                <a href="contact.html#request-quote" class="btn-quote">Get a Quote</a>
+        <section class="services-article-container" id="mowing-service">
+            <article class="left-services-column text-article">
+                <div class="service-heading">
+                    <h2>Mowing and Trimming</h2>
+                    <h3 class="greenwords">For any size lawn</h3>
+                    <p>Our professional mowing and trimming services ensure your lawn remains healthy, vibrant, and
+                        impeccably manicured throughout the seasons. We utilize a professional-grade 54" Zero-Turn Mower
+                        to tackle jobs of any size. Additionally, we carefully trim around any areas the mower can't
+                        reach and use a blower afterwards to clean up. This ensures that every part of your lawn looks
+                        its best.</p>
                 </div>
-    </article>
-        <article class="right-services-column img-article">
-            <img src="images/mower.jpg" alt="Our mower">
-        </article>
-    </section>
+                <img class="in-service" src="images/mower.jpg" alt="Our mower">
+                <div class="service-btns-group">
+                    <a href="index.html#home-services" class="btn-home">Back to Home</a>
+                    <a href="contact.html#request-quote" class="btn-quote">Get a Quote</a>
+                </div>
+            </article>
+            <article class="right-services-column img-article">
+                <img src="images/mower.jpg" alt="Our mower">
+            </article>
+        </section>
 
-    <section class="services-article-container" id="cleanup-service">
-        <article class="left-services-column img-article">
-            <img src="images/blower.jpg" alt="Our cleanup service">
-        </article>
-        <article class="right-services-column text-article">
-            <div class="service-heading">
-                <h2>Spring / Fall Cleanup</h2>
-                <h3 class="greenwords">Save yourself the hassle</h3>
-                <p><strong>Leaf Blowing:</strong> Our team uses high-quality blowers to clear leaves from your lawn, flower beds, driveways, and walkways.</p>
-                <p><strong>Debris Removal:</strong> In addition to leaves, we remove sticks, twigs, and other debris that has accumulated.</p>
-                
+        <section class="services-article-container" id="cleanup-service">
+            <article class="left-services-column img-article">
+                <img src="images/blower.jpg" alt="Our cleanup service">
+            </article>
+            <article class="right-services-column text-article">
+                <div class="service-heading">
+                    <h2>Spring / Fall Cleanup</h2>
+                    <h3 class="greenwords">Save yourself the hassle</h3>
+                    <p><strong>Leaf Blowing:</strong> Our team uses high-quality blowers to clear leaves from your lawn,
+                        flower beds, driveways, and walkways.</p>
+                    <p><strong>Debris Removal:</strong> In addition to leaves, we remove sticks, twigs, and other debris
+                        that has accumulated.</p>
+
                 </div>
                 <img class="in-service" src="images/blower.jpg" alt="Our cleanup service">
                 <div class="service-btns-group">
                     <a href="index.html#home-services" class="btn-home">Back to Home</a>
                     <a href="contact.html#request-quote" class="btn-quote">Get a Quote</a>
                 </div>
-        </article>
-    </section>
+            </article>
+        </section>
 
-    <section class="services-article-container" id="aerating-service">
-        <article class="left-services-column text-article">
-            <div class="service-heading">
-            <h2>Aerating</h2>
-            <h3 class="greenwords">Boost Your Lawn's Health with Aeration</h3>
-<p>Aerating your lawn helps to improve soil drainage, reduce soil compaction, and promote healthy root growth. Our professional aeration services utilize a pull-behind aerator to ensure thorough and even aeration of your lawn.</p>
+        <section class="services-article-container" id="aerating-service">
+            <article class="left-services-column text-article">
+                <div class="service-heading">
+                    <h2>Aerating</h2>
+                    <h3 class="greenwords">Boost Your Lawn's Health with Aeration</h3>
+                    <p>Aerating your lawn helps to improve soil drainage, reduce soil compaction, and promote healthy
+                        root growth. Our professional aeration services utilize a pull-behind aerator to ensure thorough
+                        and even aeration of your lawn.</p>
 
-        </div>
-        <img class="in-service"src="images/Core-Aeration-1024x683.jpg" alt="Our aerating service">
-        <div class="service-btns-group">
-            <a href="index.html#home-services" class="btn-home">Back to Home</a>
-            <a href="contact.html#request-quote" class="btn-quote">Get a Quote</a>
-            </div>
-        </article>
-        <article class="right-services-column img-article">
-            <img src="images/Core-Aeration-1024x683.jpg" alt="Our aerating service">
-        </article>
-    </section>
+                </div>
+                <img class="in-service" src="images/Core-Aeration-1024x683.jpg" alt="Our aerating service">
+                <div class="service-btns-group">
+                    <a href="index.html#home-services" class="btn-home">Back to Home</a>
+                    <a href="contact.html#request-quote" class="btn-quote">Get a Quote</a>
+                </div>
+            </article>
+            <article class="right-services-column img-article">
+                <img src="images/Core-Aeration-1024x683.jpg" alt="Our aerating service">
+            </article>
+        </section>
 
-    <section class="services-article-container" id="dethatching-service">
-        <article class="left-services-column img-article">
-            <img src="images/dethatching-big.jpg" alt="Our dethatching service">
-        </article>
-        
-        <article class="right-services-column text-article">
-            <div class="service-heading">
-                <h2>Dethatching</h2>
-                <h3 class="greenwords">Revitalize Your Lawn with Dethatching</h3>
-<p>Dethatching removes the thick layer of thatch that can accumulate on your lawn, which improves air, water, and nutrient flow to the roots. Our expert dethatching services ensure your grass gets the care it needs to thrive.</p>
+        <section class="services-article-container" id="dethatching-service">
+            <article class="left-services-column img-article">
+                <img src="images/dethatching-big.jpg" alt="Our dethatching service">
+            </article>
+
+            <article class="right-services-column text-article">
+                <div class="service-heading">
+                    <h2>Dethatching</h2>
+                    <h3 class="greenwords">Revitalize Your Lawn with Dethatching</h3>
+                    <p>Dethatching removes the thick layer of thatch that can accumulate on your lawn, which improves
+                        air, water, and nutrient flow to the roots. Our expert dethatching services ensure your grass
+                        gets the care it needs to thrive.</p>
 
                 </div>
                 <img class="in-service" src="images/dethatching-big.jpg" alt="Our dethatching service">
                 <div class="service-btns-group">
                     <a href="index.html#home-services" class="btn-home">Back to Home</a>
                     <a href="contact.html#request-quote" class="btn-quote">Get a Quote</a>
-                </div>   
-        </article>
-    </section>
+                </div>
+            </article>
+        </section>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-            <img src="images/footerlogowhite.png" alt="edenroots-footer-logo">
-        </div>
-        <div class="footer-links">
-            <div class="footer-item item-header"><p>Contact</p></div>
-            <div class="footer-item"><a href="tel:3203495177">(320) 349-5177</a></div>
-            <div class="footer-item"><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></div>
-        </div>
-        <div class="footer-links">
-            <div class="footer-item item-header"><p>Services</p></div>
-            <div class="footer-item"><a href="services.html#mowing-service">Mowing / Trimming</a></div>
-            <div class="footer-item"><a href="services.html#cleanup-service">Cleanup</a></div>
-            <div class="footer-item"><a href="services.html#aerating-service">Aerating</a></div>
-            <div class="footer-item"><a href="services.html#dethatching-service">Dethatching</a></div>
-        </div>
-        <div class="footer-links">
-            <div class="footer-item item-header"><p>Social Media</p></div>
-            <div class="footer-item"><a class="social-icon" href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page"></a></div>
-        </div>
-        </div>
-        <div class="footer-links-mobile">
-            <a href="tel:3203495177">(320) 349-5177</a><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a>
-        </div>
-        <div class="footer-copyright">
-            <p>Copyright &#169; 2024 Eden Roots Lawn Care | Website Designed and Developed by Tobias Sheets</p>
-        </div>
-    </footer>
-<script src="js/script.js"></script>
-<script defer>
-    const burgerMenu = document.querySelector('.burger-menu');
-    const mobileMenu = document.querySelector('.mobile-menu');
-    const body = document.body;
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/footerlogowhite.png" alt="edenroots-footer-logo">
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Contact</p>
+                    </div>
+                    <div class="footer-item"><a href="tel:3203495177">(320) 349-5177</a></div>
+                    <div class="footer-item"><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Services</p>
+                    </div>
+                    <div class="footer-item"><a href="services.html#mowing-service">Mowing / Trimming</a></div>
+                    <div class="footer-item"><a href="services.html#cleanup-service">Cleanup</a></div>
+                    <div class="footer-item"><a href="services.html#aerating-service">Aerating</a></div>
+                    <div class="footer-item"><a href="services.html#dethatching-service">Dethatching</a></div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Social Media</p>
+                    </div>
+                    <div class="footer-item"><a class="social-icon"
+                            href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page"></a></div>
+                </div>
+            </div>
+            <div class="footer-links-mobile">
+                <a href="tel:3203495177">(320) 349-5177</a><a
+                    href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &#169; 2024 Eden Roots Lawn Care | Website Designed and Developed by Tobias Sheets</p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+        <script defer>
+            const burgerMenu = document.querySelector('.burger-menu');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const body = document.body;
 
-    burgerMenu.addEventListener('click', () => {
-    burgerMenu.classList.toggle('burger-active');
-    mobileMenu.classList.toggle('mobile-menu-active');
-})
-</script>
-<script defer src="js/hideNavOnScroll.js"></script>
-<script defer src="js/clickableNavLogo.js"></script>
+            burgerMenu.addEventListener('click', () => {
+                burgerMenu.classList.toggle('burger-active');
+                mobileMenu.classList.toggle('mobile-menu-active');
+            })
+        </script>
+        <script defer src="js/hideNavOnScroll.js"></script>
+        <script defer src="js/clickableNavLogo.js"></script>
 </body>

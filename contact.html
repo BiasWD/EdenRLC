@@ -2,13 +2,25 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HESNLFHM5M">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HESNLFHM5M');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eden Roots Lawn Care | Contact</title>
-    <meta name="description" content="Contact Eden Roots Lawn Care for affordable, yet high-quality lawn maintenance services in Minnesota.">
+    <meta name="description"
+        content="Contact Eden Roots Lawn Care for affordable, yet high-quality lawn maintenance services in Minnesota.">
     <!--Open Graph Protocol-->
     <meta property="og:title" content="Contact - Eden Roots Lawn Care">
-    <meta property="og:description" content="Contact Eden Roots Lawn Care for affordable, high-quality lawn maintenance services in Minnesota.">
+    <meta property="og:description"
+        content="Contact Eden Roots Lawn Care for affordable, high-quality lawn maintenance services in Minnesota.">
     <meta property="og:image" content="https://edenrootslawncare.com/images/edenlogocolored.png">
     <meta property="og:url" content="https://edenrootslawncare.com/contact.html">
     <meta property="og:type" content="website">
@@ -16,238 +28,270 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <link rel="stylesheet" href="https://use.typekit.net/njt8alf.css">
 </head>
 
 <body>
     <!--Facebook Java SDK-->
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="XmoZzCzX"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
+        nonce="XmoZzCzX"></script>
     <script src="https://web3forms.com/client/script.js" async defer></script>
     <script>
         document.addEventListener('scroll', () => {
             const header = document.querySelector('header');
-            
+
             if (window.scrollY > 0) {
                 header.classList.add('scrolled');
             }
             else {
                 header.classList.remove('scrolled');
             }
-            }
+        }
         )
     </script>
-<header>
-    <div id="nav-logo" href="index.html"><img class="whitelogo clickableLogo" src="images/edenlogowhite.png" alt="Eden Roots Logo"> <img class="reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">  </div>
-    <nav>
+    <header>
+        <div id="nav-logo" href="index.html"><img class="whitelogo clickableLogo" src="images/edenlogowhite.png"
+                alt="Eden Roots Logo"> <img class="reglogo clickableLogo" src="images/edenlogocolored.png"
+                alt="Eden Roots Logo"> </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a class="current-page" href="contact.html">Contact</a>
+            <a href="clientportal.html">Client Page</a>
+        </nav>
+        <div id="right-header"></div>
+    </header>
+    <div class="mobile-nav">
+        <div class="mobile-nav-logo">
+            <img class="mobile-reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">
+        </div>
+        <div class="burger-container">
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
-        <a class="current-page" href="contact.html">Contact</a>
+        <a class="mobile-current-page" href="contact.html">Contact</a>
         <a href="clientportal.html">Client Page</a>
-    </nav>
-    <div id="right-header"></div>
-</header>
-<div class="mobile-nav">
-    <div class="mobile-nav-logo">
-        <img class="mobile-reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">
     </div>
-    <div class="burger-container">
-    <div class="burger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    </div>
-</div>
-<div class="mobile-menu">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a class="mobile-current-page" href="contact.html">Contact</a>
-    <a href="clientportal.html">Client Page</a>
-</div>
-<div id="main-container contact-main">
-    <section class="top-section top-contact" >
-        <article>
-            <p>Contact Us</p>
-        <h1>Contact Eden Roots Lawn Care for Your Lawn Service Needs</h1>
-        </article>
-    </section>
+    <div id="main-container contact-main">
+        <section class="top-section top-contact">
+            <article>
+                <p>Contact Us</p>
+                <h1>Contact Eden Roots Lawn Care for Your Lawn Service Needs</h1>
+            </article>
+        </section>
 
-    <section class="double-article contact-article">
-        <article class="letstalk">
-            <h2>Lets Talk</h2>
-    <p>We're here to help you achieve the lawn of your dreams. Whether you have questions, need advice, or want to schedule a service, don't hesitate to reach out!</p>
-    <ul>
-                <li><img src="images/phone-call.svg"><p><strong>Call</strong> or <strong>Text</strong>: <strong><a href="tel:3203495177">(320) 349-5177</a></strong></p></li>
-                <li><img src="images/message.svg"><p><strong>Email</strong>: <strong><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></strong></p></li>
-                <li><img src="images/facebook.svg"><p><strong>Chat</strong> with us on <Strong><a href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page">Facebook</a></Strong></p></li>
-            </ul>
-        </article>
-        <article class="contact-img">
-            <img id="contactimg" src="images/contactmainbackground.jpg" alt="growing plant">
-        </article>
-    </section>
-    <div>
-    <section class="form" id="request-quote">
-        <div class="form-container">
-            <form method="POST" class="form" id="quote-form">
-                <input type="hidden" name="access_key" value="12680f5c-2832-4951-8698-7521c2c8e055">
-                <h3>Request a Free Custom Quote</h3>
-                <!--Progrss Bar-->
-                <div class="progressbar">
-                    <div class="progress" id="progress"></div>
-                    <div class="progress-step progress-step-active" data-title="Zipcode"></div>
-                    <div class="progress-step" data-title="Services"></div>
-                    <div class="progress-step" data-title="Address"></div>
-                    <div class="progress-step" data-title="Contact"></div>
-                </div>
-                <div class="nextprogressbar"></div>
-                <div class="loadingprogressbar"></div>
-                <div class="successPB"><p class=thankYou><strong>Thank You!</strong></p><p class="afterthankyou">&nbsp;&nbsp;We'll get back to you soon.</p></div>
-                <div class="failedPB"><p><strong>Something went wrong.&nbsp;&nbsp;</strong><a href="contact.html">Contact</a> us here.</p></div>
-                <!--Steps-->
-                <div class="form-step form-step-active">
-                <h2>Let's make sure you're in our service area.</h2>
-                    <div class="input-container">
-                        <label for="zip">Enter your zipcode</label>
-                        <input class="zip-input" type="text" name="zipcode" maxlength="5" minlength="5" id="zip" placeholder="Zip" required>
-                    </div>
-                    <div class="zip-error-len"><p>Please enter a valid 5 digit zipcode</p></div>
-                    <div class="zip-error">
-                    <p>Sorry, we currently don't service your area. <br> Have a question? <a href="contact.html">Contact</a> us. We might work something out!</a></p>
-                    </div>
-                    <div class="btns-group">
-                <a href="#" class="form-btn btn-next">NEXT</a>
-                    </div>
-                </div>
-                <div class="form-step">
-                    <h2>What can we help with?</h2>
-                    <div>
-                        <div class="checkbox-container">
-                            <label for="mowing">Mowing/Trimming</label>
-                            <input type="checkbox" name="mowing" id="mowing">
-                        </div>
-                        <div class="checkbox-container">
-                            <label for="Aerating">Aerating</label>
-                            <input type="checkbox" name="aerating" id="aerating">
-                        </div>
-                        <div class="checkbox-container">
-                            <label for="dethatching">Dethatching</label>
-                            <input type="checkbox" name="dethatching" id="dethatching">
-                        </div>
-                        <div class="checkbox-container">
-                            <label for="cleanup">Cleanup</label>
-                            <input type="checkbox" name="cleanup" id="cleanup">
-                        </div>
-                    </div>
-                    <div class="form-error">
-                        <p>Please Select an option</p>
-                    </div>
-                    <div class="btns-group">
-                    <a href="#" class="form-btn btn-back">BACK</a>
-                    <a href="#" class="form-btn btn-next">NEXT</a>
-                    </div>
-                </div>
-                <div class="form-step">
-                    <h2>We need your Lawn Information.</h2>
-                        <div class="input-container">
-                            <label for="address"> Address*</label>
-                            <input type="text" name="address" id="address" placeholder="Address" required>
-                        </div>
-                        <div class="input-container">
-                            <label for="city">City*</label>
-                            <input type="text" name="city" id="city" placeholder="City" required>
-                        </div>
-                        <div class="input-container">
-                            <label for="size">If known, what's the size of your property?</label>
-                            <input type="text" name="propertysize" id="size" placeholder="Property Size">
-                        </div>
-                        <div class="btns-group">
-                            <a href="#" class="form-btn btn-back">BACK</a>
-                            <a href="#" class="form-btn btn-next">NEXT</a>
-                        </div>
-                    </div>
-                <div class="form-step">
-                    <h2>How should we reach you?</h2>
-<div class="input-container fnamelname">
-    <label for="name">Name*</label>
-    <input type="text" name="name" id="name" placeholder="Name" required>
-</div>
-<div class="input-container">
-    <label for="email">Email*</label>
-    <input type="email" name="email" id="email" placeholder="Your Email" required>
-</div>
-<div class="input-container">
-    <label for="phone">Phone</label>
-    <input type="tel" name="phone" id="phone" placeholder="Phone Number">
-    <div class="ortext">If provided, we'll also send you a text of your estimate.</div>
-</div>
-<div class="btns-group">
-    <a href="#" class="form-btn btn-back">BACK</a>
-    <button type="submit" class="form-btn"> SUMBIT</button>
-</div>
-</div>
-<div class="back-to-home">
-    <div class="btns-group">
-        <a href="index.html" class="form-btn">BACK TO HOME</a>
-    </div>
-</div>
-                </form>
-            </div>
+        <section class="double-article contact-article">
+            <article class="letstalk">
+                <h2>Lets Talk</h2>
+                <p>We're here to help you achieve the lawn of your dreams. Whether you have questions, need advice, or
+                    want to schedule a service, don't hesitate to reach out!</p>
+                <ul>
+                    <li><img src="images/phone-call.svg">
+                        <p><strong>Call</strong> or <strong>Text</strong>: <strong><a href="tel:3203495177">(320)
+                                    349-5177</a></strong></p>
+                    </li>
+                    <li><img src="images/message.svg">
+                        <p><strong>Email</strong>: <strong><a
+                                    href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></strong></p>
+                    </li>
+                    <li><img src="images/facebook.svg">
+                        <p><strong>Chat</strong> with us on <Strong><a
+                                    href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page">Facebook</a></Strong>
+                        </p>
+                    </li>
+                </ul>
+            </article>
+            <article class="contact-img">
+                <img id="contactimg" src="images/contactmainbackground.jpg" alt="growing plant">
+            </article>
+        </section>
         <div>
-    </section>
-</div>
-<footer>
-    <div class="footer-content">
-        <div class="footer-logo">
-        <img src="images/footerlogowhite.png" alt="edenroots-footer-logo">
-    </div>
-    <div class="footer-links">
-        <div class="footer-item item-header"><p>Contact</p></div>
-        <div class="footer-item"><a href="tel:3203495177">(320) 349-5177</a></div>
-        <div class="footer-item"><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></div>
-    </div>
-    <div class="footer-links">
-        <div class="footer-item item-header"><p>Services</p></div>
-        <div class="footer-item"><a href="services.html#mowing-service">Mowing / Trimming</a></div>
-        <div class="footer-item"><a href="services.html#cleanup-service">Cleanup</a></div>
-        <div class="footer-item"><a href="services.html#aerating-service">Aerating</a></div>
-        <div class="footer-item"><a href="services.html#dethatching-service">Dethatching</a></div>
-    </div>
-    <div class="footer-links">
-        <div class="footer-item item-header"><p>Social Media</p></div>
-        <div class="footer-item"><a class="social-icon" href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page"></a></div>
-    </div>
-    </div>
-    <div class="footer-links-mobile">
-        <a href="tel:3203495177">(320) 349-5177</a><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a>
-    </div>
-    <div class="footer-copyright">
-        <p>Copyright &#169; 2024 Eden Roots Lawn Care | Website Designed and Developed by Tobias Sheets</p>
-    </div>
-</footer>
-<script src="js/script.js"></script>
-<script src="js/formSubmission.js"></script>
-<script defer>
-    const burgerMenu = document.querySelector('.burger-menu');
-    const mobileMenu = document.querySelector('.mobile-menu');
-    const body = document.body;
+            <section class="form" id="request-quote">
+                <div class="form-container">
+                    <form method="POST" class="form" id="quote-form">
+                        <input type="hidden" name="access_key" value="12680f5c-2832-4951-8698-7521c2c8e055">
+                        <h3>Request a Free Custom Quote</h3>
+                        <!--Progrss Bar-->
+                        <div class="progressbar">
+                            <div class="progress" id="progress"></div>
+                            <div class="progress-step progress-step-active" data-title="Zipcode"></div>
+                            <div class="progress-step" data-title="Services"></div>
+                            <div class="progress-step" data-title="Address"></div>
+                            <div class="progress-step" data-title="Contact"></div>
+                        </div>
+                        <div class="nextprogressbar"></div>
+                        <div class="loadingprogressbar"></div>
+                        <div class="successPB">
+                            <p class=thankYou><strong>Thank You!</strong></p>
+                            <p class="afterthankyou">&nbsp;&nbsp;We'll get back to you soon.</p>
+                        </div>
+                        <div class="failedPB">
+                            <p><strong>Something went wrong.&nbsp;&nbsp;</strong><a href="contact.html">Contact</a> us
+                                here.</p>
+                        </div>
+                        <!--Steps-->
+                        <div class="form-step form-step-active">
+                            <h2>Let's make sure you're in our service area.</h2>
+                            <div class="input-container">
+                                <label for="zip">Enter your zipcode</label>
+                                <input class="zip-input" type="text" name="zipcode" maxlength="5" minlength="5" id="zip"
+                                    placeholder="Zip" required>
+                            </div>
+                            <div class="zip-error-len">
+                                <p>Please enter a valid 5 digit zipcode</p>
+                            </div>
+                            <div class="zip-error">
+                                <p>Sorry, we currently don't service your area. <br> Have a question? <a
+                                        href="contact.html">Contact</a> us. We might work something out!</a></p>
+                            </div>
+                            <div class="btns-group">
+                                <a href="#" class="form-btn btn-next">NEXT</a>
+                            </div>
+                        </div>
+                        <div class="form-step">
+                            <h2>What can we help with?</h2>
+                            <div>
+                                <div class="checkbox-container">
+                                    <label for="mowing">Mowing/Trimming</label>
+                                    <input type="checkbox" name="mowing" id="mowing">
+                                </div>
+                                <div class="checkbox-container">
+                                    <label for="Aerating">Aerating</label>
+                                    <input type="checkbox" name="aerating" id="aerating">
+                                </div>
+                                <div class="checkbox-container">
+                                    <label for="dethatching">Dethatching</label>
+                                    <input type="checkbox" name="dethatching" id="dethatching">
+                                </div>
+                                <div class="checkbox-container">
+                                    <label for="cleanup">Cleanup</label>
+                                    <input type="checkbox" name="cleanup" id="cleanup">
+                                </div>
+                            </div>
+                            <div class="form-error">
+                                <p>Please Select an option</p>
+                            </div>
+                            <div class="btns-group">
+                                <a href="#" class="form-btn btn-back">BACK</a>
+                                <a href="#" class="form-btn btn-next">NEXT</a>
+                            </div>
+                        </div>
+                        <div class="form-step">
+                            <h2>We need your Lawn Information.</h2>
+                            <div class="input-container">
+                                <label for="address"> Address*</label>
+                                <input type="text" name="address" id="address" placeholder="Address" required>
+                            </div>
+                            <div class="input-container">
+                                <label for="city">City*</label>
+                                <input type="text" name="city" id="city" placeholder="City" required>
+                            </div>
+                            <div class="input-container">
+                                <label for="size">If known, what's the size of your property?</label>
+                                <input type="text" name="propertysize" id="size" placeholder="Property Size">
+                            </div>
+                            <div class="btns-group">
+                                <a href="#" class="form-btn btn-back">BACK</a>
+                                <a href="#" class="form-btn btn-next">NEXT</a>
+                            </div>
+                        </div>
+                        <div class="form-step">
+                            <h2>How should we reach you?</h2>
+                            <div class="input-container fnamelname">
+                                <label for="name">Name*</label>
+                                <input type="text" name="name" id="name" placeholder="Name" required>
+                            </div>
+                            <div class="input-container">
+                                <label for="email">Email*</label>
+                                <input type="email" name="email" id="email" placeholder="Your Email" required>
+                            </div>
+                            <div class="input-container">
+                                <label for="phone">Phone</label>
+                                <input type="tel" name="phone" id="phone" placeholder="Phone Number">
+                                <div class="ortext">If provided, we'll also send you a text of your estimate.</div>
+                            </div>
+                            <div class="btns-group">
+                                <a href="#" class="form-btn btn-back">BACK</a>
+                                <button type="submit" class="form-btn"> SUMBIT</button>
+                            </div>
+                        </div>
+                        <div class="back-to-home">
+                            <div class="btns-group">
+                                <a href="index.html" class="form-btn">BACK TO HOME</a>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div>
+            </section>
+        </div>
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/footerlogowhite.png" alt="edenroots-footer-logo">
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Contact</p>
+                    </div>
+                    <div class="footer-item"><a href="tel:3203495177">(320) 349-5177</a></div>
+                    <div class="footer-item"><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Services</p>
+                    </div>
+                    <div class="footer-item"><a href="services.html#mowing-service">Mowing / Trimming</a></div>
+                    <div class="footer-item"><a href="services.html#cleanup-service">Cleanup</a></div>
+                    <div class="footer-item"><a href="services.html#aerating-service">Aerating</a></div>
+                    <div class="footer-item"><a href="services.html#dethatching-service">Dethatching</a></div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Social Media</p>
+                    </div>
+                    <div class="footer-item"><a class="social-icon"
+                            href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page"></a></div>
+                </div>
+            </div>
+            <div class="footer-links-mobile">
+                <a href="tel:3203495177">(320) 349-5177</a><a
+                    href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &#169; 2024 Eden Roots Lawn Care | Website Designed and Developed by Tobias Sheets</p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+        <script src="js/formSubmission.js"></script>
+        <script defer>
+            const burgerMenu = document.querySelector('.burger-menu');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const body = document.body;
 
-    burgerMenu.addEventListener('click', () => {
-    burgerMenu.classList.toggle('burger-active');
-    mobileMenu.classList.toggle('mobile-menu-active');
-})
-</script>
-<script defer src="js/hideNavOnScroll.js"></script>
-<script defer>
-    const formBackground = document.querySelector('section.form');
-function isIOS() {
-    return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
-}
-if (isIOS()) {
-    formBackground.classList.add('ios');
-}
-</script>
-<script defer src="js/clickableNavLogo.js"></script>
+            burgerMenu.addEventListener('click', () => {
+                burgerMenu.classList.toggle('burger-active');
+                mobileMenu.classList.toggle('mobile-menu-active');
+            })
+        </script>
+        <script defer src="js/hideNavOnScroll.js"></script>
+        <script defer>
+            const formBackground = document.querySelector('section.form');
+            function isIOS() {
+                return /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+            }
+            if (isIOS()) {
+                formBackground.classList.add('ios');
+            }
+        </script>
+        <script defer src="js/clickableNavLogo.js"></script>
 </body>

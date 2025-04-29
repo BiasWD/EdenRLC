@@ -2,6 +2,16 @@
 <html lang="en">
 
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-HESNLFHM5M">
+    </script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'G-HESNLFHM5M');
+    </script>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Eden Roots Lawn Care | Client Portal</title>
@@ -16,110 +26,122 @@
     <link rel="icon" href="favicon.ico" type="image/x-icon">
 
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <link rel="stylesheet" href="https://use.typekit.net/njt8alf.css">
 </head>
 
 <body>
     <!--Facebook Java SDK-->
     <div id="fb-root"></div>
-    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0" nonce="XmoZzCzX"></script>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v19.0"
+        nonce="XmoZzCzX"></script>
     <script>
         document.addEventListener('scroll', () => {
             const header = document.querySelector('header');
-            
+
             if (window.scrollY > 0) {
                 header.classList.add('scrolled');
             }
             else {
                 header.classList.remove('scrolled');
             }
-            }
+        }
         )
     </script>
-<header>
-    <div id="nav-logo" href="index.html"><img class="whitelogo clickableLogo" src="images/edenlogowhite.png" alt="Eden Roots Logo"> <img class="reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">  </div>
-    <nav>
+    <header>
+        <div id="nav-logo" href="index.html"><img class="whitelogo clickableLogo" src="images/edenlogowhite.png"
+                alt="Eden Roots Logo"> <img class="reglogo clickableLogo" src="images/edenlogocolored.png"
+                alt="Eden Roots Logo"> </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="services.html">Services</a>
+            <a href="contact.html">Contact</a>
+            <a href="clientportal.html" class="current-page">Client Page</a>
+        </nav>
+        <div id="right-header"></div>
+    </header>
+    <div class="mobile-nav">
+        <div class="mobile-nav-logo">
+            <img class="mobile-reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">
+        </div>
+        <div class="burger-container">
+            <div class="burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </div>
+    <div class="mobile-menu">
         <a href="index.html">Home</a>
         <a href="services.html">Services</a>
         <a href="contact.html">Contact</a>
-        <a href="clientportal.html" class="current-page">Client Page</a>
-    </nav>
-    <div id="right-header"></div>
-</header>
-<div class="mobile-nav">
-    <div class="mobile-nav-logo">
-        <img class="mobile-reglogo clickableLogo" src="images/edenlogocolored.png" alt="Eden Roots Logo">
+        <a class="mobile-current-page" href="clientportal.html">Client Page</a>
     </div>
-    <div class="burger-container">
-    <div class="burger-menu">
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
-    </div>
-</div>
-<div class="mobile-menu">
-    <a href="index.html">Home</a>
-    <a href="services.html">Services</a>
-    <a href="contact.html">Contact</a>
-    <a class="mobile-current-page" href="clientportal.html">Client Page</a>
-</div>
-<div id="main-container">
-    <section class="top-section top-contact top-clientportal" >
-        <article>
-            <p>Client Portal</p>
-            <h1>Coming Soon</h1>
-        </article>
-    </section>
+    <div id="main-container">
+        <section class="top-section top-contact top-clientportal">
+            <article>
+                <p>Client Portal</p>
+                <h1>Coming Soon</h1>
+            </article>
+        </section>
 
-    <section class="client-portal">
-        <article>
-            <p>Account Management, Service Requests, Billing, Payments, and more will be making their way to this page next Summer.</p>
-        </article>
-        <article class="gear"><img src="images/gear.png" alt="turning gear"></article>
-    </section>
+        <section class="client-portal">
+            <article>
+                <p>Account Management, Service Requests, Billing, Payments, and more will be making their way to this
+                    page next Summer.</p>
+            </article>
+            <article class="gear"><img src="images/gear.png" alt="turning gear"></article>
+        </section>
 
-    <footer>
-        <div class="footer-content">
-            <div class="footer-logo">
-            <img src="images/footerlogowhite.png" alt="edenroots-footer-logo">
-        </div>
-        <div class="footer-links">
-            <div class="footer-item item-header"><p>Contact</p></div>
-            <div class="footer-item"><a href="tel:3203495177">(320) 349-5177</a></div>
-            <div class="footer-item"><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></div>
-        </div>
-        <div class="footer-links">
-            <div class="footer-item item-header"><p>Services</p></div>
-            <div class="footer-item"><a href="services.html#mowing-service">Mowing / Trimming</a></div>
-            <div class="footer-item"><a href="services.html#cleanup-service">Cleanup</a></div>
-            <div class="footer-item"><a href="services.html#aerating-service">Aerating</a></div>
-            <div class="footer-item"><a href="services.html#dethatching-service">Dethatching</a></div>
-        </div>
-        <div class="footer-links">
-            <div class="footer-item item-header"><p>Social Media</p></div>
-            <div class="footer-item"><a class="social-icon" href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page"></a></div>
-        </div>
-        </div>
-        <div class="footer-links-mobile">
-            <a href="tel:3203495177">(320) 349-5177</a><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a>
-        </div>
-        <div class="footer-copyright">
-            <p>Copyright &#169; 2024 Eden Roots Lawn Care | Website Designed and Developed by Tobias Sheets</p>
-        </div>
-    </footer>
-<script src="js/script.js"></script>
-<script defer>
-    const burgerMenu = document.querySelector('.burger-menu');
-    const mobileMenu = document.querySelector('.mobile-menu');
-    const body = document.body;
+        <footer>
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="images/footerlogowhite.png" alt="edenroots-footer-logo">
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Contact</p>
+                    </div>
+                    <div class="footer-item"><a href="tel:3203495177">(320) 349-5177</a></div>
+                    <div class="footer-item"><a href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a></div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Services</p>
+                    </div>
+                    <div class="footer-item"><a href="services.html#mowing-service">Mowing / Trimming</a></div>
+                    <div class="footer-item"><a href="services.html#cleanup-service">Cleanup</a></div>
+                    <div class="footer-item"><a href="services.html#aerating-service">Aerating</a></div>
+                    <div class="footer-item"><a href="services.html#dethatching-service">Dethatching</a></div>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-item item-header">
+                        <p>Social Media</p>
+                    </div>
+                    <div class="footer-item"><a class="social-icon"
+                            href="https://www.facebook.com/profile.php?id=61557058473909&ref=embed_page"></a></div>
+                </div>
+            </div>
+            <div class="footer-links-mobile">
+                <a href="tel:3203495177">(320) 349-5177</a><a
+                    href="mailto:edenrootslawn@gmail.com">edenrootslawn@gmail.com</a>
+            </div>
+            <div class="footer-copyright">
+                <p>Copyright &#169; 2024 Eden Roots Lawn Care | Website Designed and Developed by Tobias Sheets</p>
+            </div>
+        </footer>
+        <script src="js/script.js"></script>
+        <script defer>
+            const burgerMenu = document.querySelector('.burger-menu');
+            const mobileMenu = document.querySelector('.mobile-menu');
+            const body = document.body;
 
-    burgerMenu.addEventListener('click', () => {
-    burgerMenu.classList.toggle('burger-active');
-    mobileMenu.classList.toggle('mobile-menu-active');
-})
-</script>
-<script defer src="js/hideNavOnScroll.js"></script>
-<script defer src="js/clickableNavLogo.js"></script>
+            burgerMenu.addEventListener('click', () => {
+                burgerMenu.classList.toggle('burger-active');
+                mobileMenu.classList.toggle('mobile-menu-active');
+            })
+        </script>
+        <script defer src="js/hideNavOnScroll.js"></script>
+        <script defer src="js/clickableNavLogo.js"></script>
 </body>
