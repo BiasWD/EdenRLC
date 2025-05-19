@@ -449,6 +449,15 @@ section.callus img {
   padding-right: 1rem;
 }
 
+section.promotion {
+  background-color: #ffa500;
+  color: black;
+}
+
+section.promotion h3 {
+  font-size: 2.5rem;
+}
+
 /*Service Area Section*/
 section.mn-container {
   max-width: 1600px;
